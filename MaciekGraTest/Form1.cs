@@ -16,5 +16,15 @@ namespace MaciekGraTest
         {
             InitializeComponent();
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            label1.Text = "hello Maćku";
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            label1.Text = "tez hello";
+        }
     }
 }
